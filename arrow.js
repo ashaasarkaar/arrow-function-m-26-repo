@@ -27,4 +27,8 @@ const doMath = (a, b) => {  // arrow function a multiline likhle second bracet u
     const twoTimes = mul*2;
     return twoTimes;   // purotai return kora jabe na, specificvabe bole dite hobe j ki return korbo
 }
-console.log(doMath(2, 3));
+// console.log(doMath(2, 3));
+
+//empty function with arrow function
+const tabu = () => 3.1416;
+console.log(tabu());
