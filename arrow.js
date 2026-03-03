@@ -32,3 +32,15 @@ const doMath = (a, b) => {  // arrow function a multiline likhle second bracet u
 //empty function with arrow function
 const tabu = () => 3.1416;
 console.log(tabu());
+
+//arrow function with addEventListener no parameter
+document.getElementById('tabu')
+.addEventListener('click', ()=>{
+
+});
+
+//arrow function with addEventListener with parameter
+document.getElementById('tabu')
+.addEventListener('click', (event)=>{
+
+});
