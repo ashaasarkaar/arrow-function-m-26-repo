@@ -3,4 +3,12 @@ function add(num1, num2){
     const result = num1 + num2;
     return result;
 }
-console.log(add(2,4));
+// console.log(add(2,4));
+
+//Expresion function
+const div = function(num1, num2){
+    const result = num1 / num2;
+    return result;
+}
+console.log(div(4,2));
+
